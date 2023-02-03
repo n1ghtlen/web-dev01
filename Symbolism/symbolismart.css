@@ -1,0 +1,73 @@
+/* styles the entire body of the document*/
+body {
+    /* changes main page color */
+    background-color: #A4A789;
+}
+
+/* styles "main" class */
+.main {
+    border-style: solid;
+    border-width: 20px;
+    border-color: #F0E68C;
+    width: 700px;
+    margin: auto;
+}
+
+/* styles all h1 elements in document */
+h1 {
+    color: #314F62;
+    font-family: 'Marcellus', serif;
+    font-size: 50px;
+    text-align: center;
+    border-style: inset;
+    border-width: 15px;
+    border-color: #BB852D;
+    background-color: #FFFEF2;
+}
+
+/* styles all h2 elements in document */
+h2 {
+    margin-top: 60px;
+    font-family: 'Marcellus', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-style: inset;
+    border-width: 15px;
+    border-color: #314F62;
+    background-color: #FFFEF2;
+}
+
+/* styles all paragraph elements in document */
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* styles .images class */
+.images {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+/* styles .photo class */
+.photo {
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    border-style: solid;
+    border-width: 20px
+}
+
+/* styles images in .photo class */
+.photo img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+/* styles link to see more relevant artists */
+.see-more {
+    font-size: 20px;
+    text-align: right;
+}
